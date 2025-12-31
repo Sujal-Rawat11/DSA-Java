@@ -1,0 +1,30 @@
+package Functions;
+import java.util.*;
+
+public class Prime_in_Range {
+    public static boolean isPrime(int a){
+        boolean isPrime = true;
+        for(int i =2; i<=Math.sqrt(a);i++){
+            if(a % i == 0){
+                isPrime = false;
+            }
+        }
+
+        return isPrime;
+    }
+
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter the number for range : ");
+        int n = sc.nextInt();
+        for(int i=2;i<=n;i++){
+            if(isPrime(i)){
+                System.out.println("The number " + i + " is a prime number ");
+            }else{
+                System.out.println("The number " + i + " is not a prime number ");
+            }
+        }  
+        sc.close();  
+    }
+}

@@ -1,0 +1,27 @@
+{
+  "java.debug.settings.onBuildFailureProceed": true,
+
+  "editor.quickSuggestions": {
+    "other": false,
+    "comments": false,
+    "strings": false
+  },
+  "editor.suggestOnTriggerCharacters": false,
+  "editor.inlineSuggest.enabled": false,
+  "editor.inlineSuggest.suppressSuggestions": true,
+  "editor.acceptSuggestionOnEnter": "off",
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.wordBasedSuggestions": "off",
+  "editor.parameterHints.enabled": false,
+
+  "[java]": {
+    "editor.quickSuggestions": { "other": false, "comments": false, "strings": false },
+    "editor.suggestOnTriggerCharacters": false,
+    "editor.inlineSuggest.enabled": false,
+    "editor.acceptSuggestionOnCommitCharacter": false
+  },
+
+  "github.copilot.enable": false,
+  "github.copilot.inlineSuggest.enable": false,
+  "github.copilot.chat.enabled": false
+}
